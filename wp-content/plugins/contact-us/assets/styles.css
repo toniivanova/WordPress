@@ -1,0 +1,12 @@
+.contact-us-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-us-container .information, .contact-us-container .google-map {
+    flex: 1 1 50%;
+}
+
+.contact-us-container .information {
+    padding-right: 1em;
+}
