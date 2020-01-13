@@ -7,6 +7,21 @@ body{
     }
 }
 
+.header a {
+  padding-right: 6px;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(177, 115, 115);
+  font-weight: bold;
+  float: right;
+  display: inline-block;
+}
+
+.header a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
 
 .sidenav {
     height: 100%;
@@ -15,7 +30,7 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: rgb(177, 115, 115);
     overflow-x: hidden;
     padding-top: 50px;
   }
@@ -24,12 +39,13 @@ body{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #000000;
     display: block;
   }
   
   .sidenav a:hover {
     color: #f1f1f1;
+    text-decoration: none;
   }
   
   .container {
@@ -42,47 +58,60 @@ body{
     .sidenav a {font-size: 18px;}
   }
 
-  footer {
-    display: inline-block;
+  .footer {
+    margin-left: 160px;
+    background-color: black;
+    color: rgb(177, 115, 115);
+    float: right;
+    width: 80%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: right;
   }
-  footer div{ 
+  .footer div{ 
     display: inline-block; 
   }
 
-  footer ul{
+  .footer ul{
     list-style-type:none;
     display: inline-block;
     font-size: 12px;
-    color: black; 
+    color: rgb(177, 115, 115);
   }
-  footer li{
+  .footer li{
     list-style-type:none;
     display: inline-block;
     font-size: 15px;
     padding-right: 10px;
     float: left;
-    color: black; 
+    color: rgb(177, 115, 115); 
   }
-  footer li a{
+  .footer li a{
     color: #000;
+    float: right;
   }
 
-  footer nav{
+  .footer nav{
     display: inline-block;
     padding-right: 50px;
   }
 
-  footer nav h5{
+  .footer nav h5{
     padding-left: 40px;
     border-bottom: 1px solid;
     text-align: left;
   }
 
-  footer nav p{
+  .footer nav p{
     padding: 0;
     border: 0;
     margin: 0;
     font-size: 15px;
   }
   
+  .footer p a{
+    color: rgb(177, 115, 115);
+    float: left;
+  }
  
