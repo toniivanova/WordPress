@@ -1,14 +1,17 @@
 <footer class="footer">
     <nav>
-        <h5>Contact</h5>
-        <ul>
-            <li>Company Name,</li>
-            <li>bul. Carigradsko shose 1,</li>
-            <li>1000 Sofia,</li>
-            <li>0888123456</li> 
-        </ul>
+        <h5>Contact</h5>        
+        <div>
+            <ul>
+                <li><a href="#">Back to top</a></li>
+                <li>Company Name,</li>
+                <li>bul. Carigradsko shose 1,</li>
+                <li>1000 Sofia,</li>
+                <li>0888123456</li> 
+            </ul>
+        </div>
     </nav>    
-    <p><a href="#">Back to top</a></p>
+    
 </footer>    
 
 <?php wp_footer(); ?>   

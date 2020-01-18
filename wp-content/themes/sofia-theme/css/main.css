@@ -4,8 +4,21 @@ body {
   body a {
     color: red; }
 
+header {
+  background-color: black;
+  color: #b17373;
+  width: 90%;
+  position: fixed;
+  text-align: right;
+  height: 40px;
+  display: inline-block;
+  padding-right: 40px; }
+
+.header li {
+  display: inline-block; }
+
 .header a {
-  padding-right: 6px;
+  padding-right: 10px;
   text-decoration: none;
   font-size: 15px;
   color: #b17373;
@@ -14,7 +27,7 @@ body {
   display: inline-block; }
 
 .header a:hover {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none; }
 
 .sidenav {
@@ -54,13 +67,12 @@ body {
   background-color: black;
   color: #b17373;
   float: right;
-  width: 80%;
+  width: 90%;
   position: fixed;
   left: 0;
   bottom: 0;
-  text-align: right; }
-
-.footer div {
+  text-align: right;
+  height: 60px;
   display: inline-block; }
 
 .footer ul {
@@ -75,7 +87,8 @@ body {
   font-size: 15px;
   padding-right: 10px;
   float: left;
-  color: #b17373; }
+  color: #b17373;
+  font-weight: bold; }
 
 .footer li a {
   color: #000;
@@ -86,7 +99,7 @@ body {
   padding-right: 50px; }
 
 .footer nav h5 {
-  padding-left: 40px;
+  padding-left: 665px;
   border-bottom: 1px solid;
   text-align: left; }
 
@@ -96,6 +109,12 @@ body {
   margin: 0;
   font-size: 15px; }
 
-.footer p a {
+.footer li a {
+  font-weight: bold;
+  margin-right: 536px;
   color: #b17373;
   float: left; }
+
+.footer li a:hover {
+  color: white;
+  text-decoration: none; }

@@ -10,4 +10,13 @@
 
 <body <?php body_class(); ?>>
     <header>
+        <div class="header">
+            <ul>
+                <li><a href="about-me">About me</a></li>
+                <li><a href="news">News</a></li>
+                <li><a href="horoscope">Horoscope</a></li>
+                <li><a href="social-network">Network</a></li>
+                <li><a href="../event">Events</a></li>
+            </ul>
+        </div>
     </header>
